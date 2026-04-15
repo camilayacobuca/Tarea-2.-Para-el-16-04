@@ -1,0 +1,11 @@
+#pedir la edad de una persona y mostrar
+for x in range (3):
+    edad = int (input("pedir edad"))
+    if  0 <=edad <= 12:
+        print ("niño")
+    elif 13<= edad <=17:
+        print ("adolescente")
+    elif  18 <= edad <= 64:
+            print ("adulto")
+    else:
+        print ("adulto mayor")
